@@ -35,23 +35,19 @@
     <meta charset="UTF-8">
     <title>Penguins</title>
 </head>
-<body style="background-color: #86d9f0">
+<body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Home Page</a>
+    <a class="navbar-brand" href="/">Home Page</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Visit Us<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Animals & Exhibits</a>
-            <a class="nav-item nav-link" href="#">Education</a>
-            <a class="nav-item nav-link" href="#">Member Page</a>
-            <a class="nav-item nav-link" href="#">Contact Us</a>
-            <a class="nav-item nav-link" href="#">Member Page</a>
-            <a class="nav-item nav-link" href="#">Member Page</a>
-            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-item nav-link" href="/animals">Animals & Exhibits</a>
+            <a class="nav-item nav-link" href="/memberpage">Member Page</a>
+            <a class="nav-item nav-link" href="/contactpage">Contact Us</a>
+            <a class="nav-item nav-link" href="/visitpage">Visit us</a>
         </div>
     </div>
 </nav>
@@ -59,16 +55,25 @@
 <div align="center" class="jumbotron text-center imagestretch">
 
     <!-- Title -->
-    <h1 class="card-title h4 pb-2"><strong>Penguins!</strong></h1>
+    <div class="sidenav">
+        <a href="/animals">Animals</a>
+        <hr>
+        <a href="/sharkcam">Shark</a>
+        <a href="/seaotters">Sea Otters</a>
+        <a href="/octopus">Octopus</a>
+        <a href="/penguins">Penguins</a>
+    </div>
+
 
     <!-- Card image -->
+    <h2><strong>About the African Penguins</strong></h2>
     <div class="view overlay my-4">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/p9SjR0VNQZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="mask rgba-white-slight"></div>
         </a>
     </div>
     <div align="center">
-        <h2><strong>About the African Penguins</strong></h2>
+        <hr>
         <img src="penguin-wings-out.png">
         <p>Scientfic Name: Spheniscus demersus</p>
         <p>Diet: Cape anchovy, other small fishes</p>
@@ -76,32 +81,22 @@
         <br>
         <br>
         <br>
-        <h3><strong>Meet Some of Our Penguins!</strong></h3>
-        <h4><strong>Amigo</strong></h4>
+        <h4><strong>Meet Some of Our Penguins!</strong></h4>
+        <h3><strong>Amigo</strong></h3>
         <img src="amigo.png">
         <br>
         <h3><strong>Bee</strong></h3>
         <img src="bee.jpg">
-        <h4><strong>Boulders</strong></h4>
+        <h3><strong>Boulders</strong></h3>
         <img src="boulders.jpg">
 
     </div>
-
-
-
-    <!-- Linkedin -->
-    <a class="fa-lg p-2 m-2 li-ic"><i class="fab fa-linkedin-in grey-text"></i></a>
-    <!-- Twitter -->
-    <a class="fa-lg p-2 m-2 tw-ic"><i class="fab fa-twitter grey-text"></i></a>
-    <!-- Dribbble -->
-    <a class="fa-lg p-2 m-2 fb-ic"><i class="fab fa-facebook-f grey-text"></i></a>
 
 </div>
 <!-- Jumbotron -->
 
 
-
-
+<hr>
 
 
 
@@ -188,11 +183,6 @@
     </div>
     <!-- Footer Links -->
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
