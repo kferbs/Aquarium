@@ -6,42 +6,54 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeController {
     @RequestMapping("/")
-    public String index(){
+    public String index() {
         return "index";
     }
+
     @RequestMapping("/memberpage")
-    public String memberPage(){
+    public String memberPage() {
         return "memberpage";
     }
+
     @RequestMapping("/visitpage")
-    public String visitPage(){
+    public String visitPage() {
         return "visitpage";
     }
+
     @RequestMapping("/contactpage")
-    public String contactPage(){
+    public String contactPage() {
         return "contactpage";
     }
+
     @RequestMapping("/animals")
-    public String animalPage(){
+    public String animalPage() {
         return "animals";
     }
+
     @RequestMapping("/octopus")
-    public String octopus(){
+    public String octopus() {
         return "octopus";
     }
+
     @RequestMapping("/seaotters")
-    public String seaotters(){
+    public String seaotters() {
         return "seaotters";
     }
+
     @RequestMapping("/penguins")
-    public String penguins(){
+    public String penguins() {
         return "penguins";
     }
+
     @RequestMapping("/sharkcam")
-    public String sharkcam(){
+    public String sharkcam() {
         return "sharkcam";
     }
 
+    @RequestMapping("/aboutus")
+    public String aboutUs() {
+        return "aboutus";
+    }
 
 
 }
