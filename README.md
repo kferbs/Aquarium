@@ -30,6 +30,6 @@ Run in IDE and open a web browser to your default localhost port (generally this
 
 ## Acknowledgments
 
-* Montgomery College Java Web Development bootcamp teachers and TAs. 
+* Montgomery College Java Web Development Boot Camp teachers and TAs. 
 * Our classmates who pushed us to excel.
 
